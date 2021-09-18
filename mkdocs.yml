@@ -8,3 +8,4 @@ theme:
   features:
   - navigation.top
   - navigation.instant
+edit_uri: edit/main/docs/
