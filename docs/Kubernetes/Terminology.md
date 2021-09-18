@@ -1,23 +1,20 @@
-# Cheat Sheet for Various Terms:
+# Terminology Cheat Sheet
 
-Pod - Basic unit of execution in Kubernetes.
-Container - An application bundled with all it's dependencies typically run in an isolated environment from other processes.
-Deployment -
-ReplicaSet
-Service
+* Pod - Basic unit of execution in Kubernetes.
+* Container - An application bundled with all it's dependencies typically run in an isolated environment from other processes.
+* Deployment -
+* ReplicaSet
+* Service
 
-Context - A cluster, user, and namespace combination used when accessing a K8s cluster.
+* Context - A cluster, user, and namespace combination used when accessing a K8s cluster.
 
-Master Node
+* Master Node
 * Store
 * Controller Manager
 * Scheduler
 
-API Server - Used to manage kubernetes resources.  Used by kubectl to manage the cluster.
-
-
- Each Node
- * Kubelet
- * Container Runtime
- * Kube proxy
-
+* API Server - Used to manage kubernetes resources.  Used by kubectl to manage the cluster.
+Each Node
+* Kubelet
+* Container Runtime
+* Kube proxy

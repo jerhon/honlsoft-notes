@@ -1,0 +1,10 @@
+site_name: Honlsoft Notes
+repo_url: https://github.com/jerhon/honlsoft-notes
+site_author: Jeremy Honl
+theme:
+  name: material
+  palette:
+    primary: indigo
+  features:
+  - navigation.top
+  - navigation.instant

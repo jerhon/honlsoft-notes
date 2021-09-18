@@ -1,4 +1,4 @@
-## Pods
+# Pods
 Basic unit of a Kubernetes application-the smallest and simplest unit in the Kubernetes object model that you create or deploy.
 
 Can have 1 or more containers.

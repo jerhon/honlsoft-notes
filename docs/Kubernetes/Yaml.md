@@ -7,7 +7,7 @@ Typically applied in a cluster by running:
 kubectl apply -f filename.yaml
 ```
 
-# Selector vs Template
+## Selector vs Template
 
 Selectors are used to pick out what to create through templates
 Templates are concrete definitions of resources.

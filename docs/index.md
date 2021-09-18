@@ -1,2 +1,3 @@
-This is a site with various notes an software development and architecture guidance based on my research and software development experience.
-It will forever be a work in progress with certain portions more complete than others.
+Welcome to my software documentation.
+This is a personal project used to track and document various architecture and software development topics for me in a long term knowledge base.
+If you find any of this helpful, please give me a follow on LinkedIn or Twitter.

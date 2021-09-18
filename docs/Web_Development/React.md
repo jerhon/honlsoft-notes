@@ -1,10 +1,8 @@
-[TOC]
-
-# Overview
+# React Overview
 
 [React](https://reactjs.org/) is a javascript library that renders application state as HTML.
 
-# Differences from Other Frameworks
+## Differences from Other Frameworks
 
 React is very different than other web development frameworks such as Angular.
 React is a view engine to render information into the HTML DOM.
@@ -28,7 +26,7 @@ However, each one has a varying degree of difficulty to configure.
 [Webpack](https://webpack.js.org/) is most full featured, but requires a good amount of configuration to get working.
 [Parcel](https://parceljs.org/) is easier to configure.
 
-# Syntax
+## Syntax
 
 React also differs in that it's primary way to build views as a superset of Javascript and even has support in Typescript.
 In short it is like mixing HTML with javascript in the same file.
@@ -47,9 +45,9 @@ export function FunctionalComponent() {
 }
 ```
 
-# Helpful NPM Packages
+## Helpful NPM Packages
 
-## General Packages
+### General Packages
 
 There are a number of common libraries that can help get a React application running.
 
@@ -58,6 +56,6 @@ There are a number of common libraries that can help get a React application run
 * [react-redux](https://react-redux.js.org/) - This package manages state for an application through a single store that connects in with React.  This is a good library to use for larger applications with more and complex state.
 * [redux-toolkit](https://redux-toolkit.js.org/) - This package simplifies development with React by combining actions, reducers, and action creators into a 'Slice'.  It also includes functions to set up common sense defaults and immutable state via immer.
 
-## UI Based Packages
+### UI Based Packages
 
 * [react-simple-maps](https://www.react-simple-maps.io/) - For building simple SVG based maps.

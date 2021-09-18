@@ -1,12 +1,15 @@
+# Kubectl
 
+```
 kubectl version
 kubectl cluster-info
 kubectl get all
 kubectl run [container-name] --image=[image-name]
 kubectl port-forward [pod] [port]
 kubectl expose
+```
 
-# Create a Resource
+## Create a Resource
 ```
 
 kubectl create

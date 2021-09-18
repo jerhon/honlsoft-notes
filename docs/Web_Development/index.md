@@ -1,2 +1,0 @@
-This section contains various topics related to web development.
-By that I mean development confined to within the browser, or ancillary development on the server to produce server-side rendered web pages.
