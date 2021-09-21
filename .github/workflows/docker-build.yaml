@@ -24,6 +24,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: |
-          ghcr.io/jerhon/hs-developer-notes:latest
-          ghcr.io/jerhon/hs-developer-notes:v${{ github.run_id }}
+        tags: ghcr.io/jerhon/honlsoft-notes:latest
+#          ghcr.io/jerhon/honlsoft-notes:v${{ github.run_id }}
