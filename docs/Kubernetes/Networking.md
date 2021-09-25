@@ -99,3 +99,13 @@ spec:
     ports:
     - port: 9000
 ```
+
+## Ports
+API 6443
+etcd 2379-2380
+Kubelet 10250
+NodePort 30000-32767
+
+### Localhost (Not exposed)
+scheduler 10251
+controller manager 10252

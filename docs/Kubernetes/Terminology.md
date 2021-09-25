@@ -2,8 +2,8 @@
 
 * Pod - Basic unit of execution in Kubernetes.
 * Container - An application bundled with all it's dependencies typically run in an isolated environment from other processes.
-* Deployment -
-* ReplicaSet
+* Deployment - An abstraction on top of a ReplicaSet which can handle bringing up and down pods based on configuration changes.
+* ReplicaSet - A resource which handles scaling up a pod to multiple instances.
 
 * Context - A cluster, user, and namespace combination used when accessing a K8s cluster.
 

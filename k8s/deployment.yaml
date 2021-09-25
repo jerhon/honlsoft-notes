@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: honlsoft-notes
+  labels:
+    app: honlsoft-notes
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  clusterIP: None
+  selector:
+    app: honlsoft-notes
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: honlsoft-notes
+  labels:
+    app: honlsoft-notes
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: honlsoft-notes
+  template:
+    metadata:
+      labels:
+        app: honlsoft-notes
+    spec:
+      containers:
+      - name: honlsoft-notes
+        image: honlsoft-notes
