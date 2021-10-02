@@ -27,6 +27,11 @@ Or --- worse, maybe it does exist with the same name but a different image, but 
 `IfNotPresent` will only try to download the image if it doesn't exist.
 `Never` would never pull the image.
 
+
+## Context
+
+The kubectl context for local access to the cluster is `minikube`
+
 ## Accessing Pods
 
 ### Port Forward
