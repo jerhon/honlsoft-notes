@@ -15,3 +15,4 @@ portForward:
 - resourceType: service
   resourceName: honlsoft-notes
   port: 80
+  localPort: 9080
