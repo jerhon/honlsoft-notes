@@ -35,6 +35,14 @@ They are usually named like webapplication or honlsoft/webapplication or with a 
 Supports [A-Za-z0-9_.-]
 
 Tags can be added to the end of images to differentiate between different image versions.
+If a tag is not supplied, the tag of "latest" is assumed.
+
+### Container Image Pull Policies
+
+When setting up a deployment or pod, the imagePullPolicy indicates when a new container image should be pulled.
+This makes it a bit tough to deal with containers with the tag of latest.
+If the state of ImagePullBackOff, it means K8s can't pull the image.
+
 
 ## Command Line
 

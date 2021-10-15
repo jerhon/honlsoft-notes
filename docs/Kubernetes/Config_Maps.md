@@ -59,3 +59,8 @@ Get a config map and output it as yaml.
 ```
 kubectl get cm [name] -o yaml
 ```
+
+# By File vs By Environment
+
+By file, config values can auto-update
+By env, injected in environment variables
