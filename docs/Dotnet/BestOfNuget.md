@@ -36,3 +36,8 @@ I'm going to try leave out the obvious ones.
 ## Unit Testing
 
 * Moq - Mocking framework for unit testing
+
+
+# Deployment
+
+* [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)

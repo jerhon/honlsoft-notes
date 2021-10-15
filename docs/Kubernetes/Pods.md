@@ -18,6 +18,24 @@ Each pod has a seperate IP address.
 Pod and it's containers are run on a single K8s node.
 They are not split up onto seperate nodes if a Pod has more than one container.
 
+## Containers
+
+Ready to run software package containing all it needs to run: application, system libraries, etc.
+Containers run on a runtime which Kubernetes uses.
+K8s supports several such as Docker, containerd, CRI-O
+
+### Container Images
+
+The packaged up application and it's dependencies.
+It's essentially the 'executable' for K8s.
+Container images are pushed to in a registry where K8s can pull them.
+
+They are usually named like webapplication or honlsoft/webapplication or with a hostname for the registry fictional.registry.example/honlsoft/webapplication this can include a port as well.
+
+Supports [A-Za-z0-9_.-]
+
+Tags can be added to the end of images to differentiate between different image versions.
+
 ## Command Line
 
 ### Create a Pod
